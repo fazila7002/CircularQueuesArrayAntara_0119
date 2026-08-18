@@ -74,4 +74,15 @@ class Queues
         int FRONT_Position = FRONT;
         int REAR_Position = REAR;
 
+        if (FRONT_Position == -1)
+        {
+            cout << "Queue is empty\n";
+            return;
+        }
+ 
+    }
+
+
+}
+
     
